@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("https://t4.ftcdn.net/jpg/01/19/11/55/360_F_119115529_mEnw3lGpLdlDkfLgRcVSbFRuVl6sMDty.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #57bf49;
+  padding: 29px;
+  border-radius: 34px;
+  box-shadow: 19px 15px 10px rgba(172, 54, 54, 0.2);
+  text-align: center;
+}
+
+h2 {
+  color: #1f0909;
+}
+
+.form-group {
+  margin: 10px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #140505;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #751919;
+  border-radius: 3px;
+  background-color: paleturquoise;
+}
+
+button {
+  background-color: #d400ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #a300cc;
+}
+#message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+/* Add this CSS for the links */
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1f0909;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  color: #d400ff;
+}
+
+h2 {
+  color: #1f0909;
+  text-decoration: underline;
+}
+
